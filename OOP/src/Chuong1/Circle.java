@@ -14,12 +14,12 @@ public class Circle {
         color = "red";
     }
     // tra ve ban kinh
-public double getRadius(){
-    return radius;
+    public double getRadius(){
+        return radius;
     }
     // tra ve dien tich
     public double getArea(){
-    return Math.PI * radius * radius;
+        return Math.PI * radius * radius;
     }
 }
 
